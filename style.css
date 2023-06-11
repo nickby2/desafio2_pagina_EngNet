@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #f0f0f0;
+}
+
+header {
+    background-color: #000000;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #f0f0f0;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f0f0f0;
+    padding: 1.5rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.5s;
+    opacity: 1;
+}
+
+nav ul li:imgnth-child(4)::before {
+    padding-right: 8px;
+    content: url("email");
+    cursor: pointer;
+    transition: 3.3s;
+}
+
+.servico:hover{
+    opacity: 0.5;
+}
+
+.sobre {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.destaque {
+    text-align: center;
+}
+
+.destaque h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.destaque p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.equipe img {
+    width: 500px;
+}
+
+footer {
+    background-color: #000000;
+    padding: 20px;
+    border: 1px solid #f0f0f0;
+    display: flex;
+    align-items: center;
+    grid-gap: 10px;
+    left: 0;
+    bottom: 0;
+    justify-content: space-between;
+}
+
+.redes-sociais ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+    justify-content: left;
+}
+
+.redes-sociais a {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.redes-sociais img {
+    height: 30px;
+
+}
